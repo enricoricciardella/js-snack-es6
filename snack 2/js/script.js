@@ -17,6 +17,14 @@ for(let i = 0; i < squadre.length; i++ ){
 const nomiFalli = [];
 for(let i = 0; i < squadre.length; i ++){
     const currNomiFalli = squadre[i];
+    // const currSquadre = squadre[i];
+
+
+    // const Squadre = {
+    //     nome: currSquadre.nome,
+    //     falli: currSquadre.falli
+    // };
+    // Squadre.push(squadre)
     nomiFalli.push({ nome: currNomiFalli.nome, falli: currNomiFalli.falli });
     // console.log(currNomiFalli.nome , currNomiFalli.falli);
     
